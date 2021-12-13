@@ -1,9 +1,10 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/pathmanagement
-    username: root
-    password: 123456
+#    url: jdbc:mysql://localhost:3306/pathmanagement
+    url: jdbc:mysql://211.69.198.55:3306/pathmanagement?useUnicode=true&amp;characterEncoding=UTF8
+    username: dev
+    password: dev
 mybatis:
   configuration:
     mapUnderscoreToCamelCase: true

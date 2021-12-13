@@ -12,9 +12,10 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/pathmanagement"/>
-                <property name="username" value="root"/>
-                <property name="password" value="123456"/>
+                <!--<property name="url" value="jdbc:mysql://localhost:3306/pathmanagement"/>-->
+                <property name="url" value="jdbc:mysql://211.69.198.55:3306/pathmanagement?useUnicode=true&amp;characterEncoding=UTF8"/>
+                <property name="username" value="dev"/>
+                <property name="password" value="dev"/>
             </dataSource>
         </environment>
     </environments>
