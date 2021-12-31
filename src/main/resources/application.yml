@@ -26,4 +26,4 @@ sa-token:
   # 是否输出操作日志
   is-log: false
 server:
-  port: 7099
+  port: 8080
