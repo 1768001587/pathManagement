@@ -4,8 +4,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/pathmanagement
     url: jdbc:mysql://101.201.49.180:3306/pathmanagement?useUnicode=true&amp;characterEncoding=UTF8
-    username: dev
-    password: dev
+    username: root
+    password: fabric
 mybatis:
   configuration:
     mapUnderscoreToCamelCase: true
