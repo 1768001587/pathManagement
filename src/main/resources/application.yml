@@ -5,7 +5,7 @@ spring:
 #    url: jdbc:mysql://localhost:3306/pathmanagement
     url: jdbc:mysql://101.201.49.180:3306/pathmanagement?useUnicode=true&amp;characterEncoding=UTF8
     username: root
-    password: fabric
+    password: 123456
 mybatis:
   configuration:
     mapUnderscoreToCamelCase: true
